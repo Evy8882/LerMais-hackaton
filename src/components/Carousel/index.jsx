@@ -4,9 +4,9 @@ import styles from './Carousel.module.css'
 function Carousel() {
   const [currentIndex, setCurrentIndex] = useState(0);
   const images = [
-    'https://placehold.co/600x280',
-    'https://placehold.co/601x280',
-    'https://placehold.co/602x280',
+    '/banners/banner1.jpg',
+    '/banners/banner2.jpg',
+    '/banners/banner3.jpg',
   ];
 
   const nextSlide = () => {

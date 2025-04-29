@@ -6,6 +6,10 @@ function Home() {
   return (
     <>
       <Header />
+      <section className={style.homeSection}>
+        <h1>SEJA BEM-VINDO</h1>
+        <img src="/logo-aberta.png" alt="" />
+      </section>
       <Carousel />
       <div className={style.autorsContainer}>
         <h2>Autores populares</h2>
