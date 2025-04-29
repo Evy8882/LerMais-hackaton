@@ -1,5 +1,6 @@
 import styles from './Header.module.css'
 import Bars from '/bars.svg'
+import Close from '/close.svg'
 import SideBar from '../SideBar'
 import Logo from '/logo-transparente.png'
 import { useState } from 'react';
@@ -16,7 +17,7 @@ function Header({transp=false}) {
     <header className={`${styles.header} ${transp ? styles.transp : ""}`}>
       <div className={styles.leftSideHeader}>
         <img
-          src={Bars}
+          src={show? Close : Bars}
           alt=""
           className={styles.bar}
           onClick={toggleSidebar}

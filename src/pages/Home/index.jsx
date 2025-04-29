@@ -22,16 +22,16 @@ function Home() {
           <h2>Autores populares</h2>
           <div className={style.itemCardContainer}>
             <div className={style.itemCard}>
-              <img src="https://placehold.co/200x150" alt="Placeholder 1" />
-              <p>Autor 1</p>
+              <img src="/Clarice Lispector.png" alt="Placeholder 1" />
+              <p>Clarice Lispector</p>
             </div>
             <div className={style.itemCard}>
-              <img src="https://placehold.co/200x150" alt="Placeholder 2" />
-              <p>Autor 2</p>
+              <img src="/Machado de Assis.png" alt="Placeholder 2" />
+              <p>Machado de Assis</p>
             </div>
             <div className={style.itemCard}>
-              <img src="https://placehold.co/200x150" alt="Placeholder 3" />
-              <p>Autor 3</p>
+              <img src="/Carlos Drummond.png" alt="Placeholder 3" />
+              <p>Carlos Drummond</p>
             </div>
           </div>
         </div>
