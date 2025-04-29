@@ -6,7 +6,8 @@ import {
   Link
 } from "react-router-dom";
 import Home from './pages/Home'
-
+import Biblioteca from './pages/Biblioteca'
+import Pesquisar from './pages/Pesquisar'
 
 function App() {
 
@@ -14,6 +15,8 @@ function App() {
     <Router>
       <Routes>
           <Route path="/" element={<Home />} />
+          <Route path="/biblioteca" element={<Biblioteca/>} />
+          <Route path="/pesquisar" element={<Pesquisar />} />
       </Routes>
     </Router>
   )
