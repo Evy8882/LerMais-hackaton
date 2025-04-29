@@ -1,18 +1,22 @@
 .sideBar{
     position: absolute;
     width: 30%;
-    left: -30%;
-    top: 60px;
+    left: 0;
+    height: 0;
+    top: 65px;
     background-color: #ff914d;
-    height: calc(100vh - 60px);
     display: flex;
     flex-direction: column;
-    transition: left 200ms;
-    z-index: 5;
+    transition: height 250ms;
+    z-index: 3;
+    visibility: hidden;
+    border-radius: 20px;
+    overflow: auto;
 }
 .sideBar.show{
     display: flex;
-    left: 0
+    height: calc(100vh - 120px);
+    visibility: visible;
 }
 .sidebarItem{
     height: 50px;
@@ -24,8 +28,10 @@
     cursor: pointer;
     color: #000;
     text-decoration: none;
+    transition: 100ms;
 }
-.sideBarItem:hover{
+.sidebarItem:hover{
+
     color: yellow;
     background-color: #a04e1b;
 }

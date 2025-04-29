@@ -5,7 +5,7 @@ import style from './Home.module.css'
 function Home() {
   return (
     <>
-      <Header />
+      <Header transp={true} />
       <section className={style.homeSection}>
         <h1>SEJA BEM-VINDO</h1>
         <img src="/logo-aberta.png" alt="" />
