@@ -21,6 +21,8 @@
     font-size: 1.4em;
     gap: 10px;
     cursor: pointer;
+    color: #000;
+    text-decoration: none;
 }
 .sidebarItem:last-child{
     margin-top: auto;
