@@ -8,6 +8,7 @@
     display: flex;
     flex-direction: column;
     transition: left 200ms;
+    z-index: 5;
 }
 .sideBar.show{
     display: flex;
@@ -23,6 +24,10 @@
     cursor: pointer;
     color: #000;
     text-decoration: none;
+}
+.sideBarItem:hover{
+    color: yellow;
+    background-color: #a04e1b;
 }
 .sidebarItem:last-child{
     margin-top: auto;

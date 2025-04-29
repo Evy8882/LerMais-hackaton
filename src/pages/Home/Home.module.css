@@ -1,0 +1,20 @@
+.autorsContainer{
+    font-family: 'Open Sans', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 70%;
+    margin: 20px auto;
+}
+.itemCardContainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+.itemCard{
+    text-align: center;
+}
