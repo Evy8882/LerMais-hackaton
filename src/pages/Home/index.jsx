@@ -1,8 +1,6 @@
 import Header from '../../components/Header'
 import Carousel from '../../components/Carousel'
 import style from './Home.module.css'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faSearch } from '@fortawesome/free-solid-svg-icons';
 
 function Home() {
   return (
@@ -10,7 +8,7 @@ function Home() {
       <Header transp={true} />
       <section className={style.homeSection}>
         <h1>SEJA BEM-VINDO</h1>
-        <img src="/logo-aberta.png" alt="Ler Mais" />
+        <img src="/logo-aberta.png" alt="" />
         <p>No nosso site, você lê, interage com autores e ainda ganha recompensas por cada interação!</p>
         <a href="#exploreSection">
           <FontAwesomeIcon icon={faSearch} /> Explorar
@@ -35,8 +33,9 @@ function Home() {
             </div>
           </div>
         </div>
-      </section>
+      </div>
     </>
   );
 }
+
 export default Home

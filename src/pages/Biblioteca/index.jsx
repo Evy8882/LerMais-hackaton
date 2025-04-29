@@ -21,10 +21,9 @@ function Biblioteca() {
             <Header />
             <div className={styles.bibliotecaContainer}>
                 <h1>BIBLIOTECA</h1>
-                <div className={styles.searchContainer}>
                 <div className={styles.searchInputContainer}>
                     <input type="search" placeholder="Pesquisar livro..." className={styles.searchInput} />
-                </div>
+                    <img src="/lupa.svg" alt="lupa" />
                 </div>
                 <section>
                     <div className={styles.booksContainer}>

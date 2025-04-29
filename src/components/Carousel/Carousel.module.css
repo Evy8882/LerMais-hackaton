@@ -9,11 +9,12 @@
     top: 50%;
     transform: translateY(-50%);
     user-select: none;
-    right: 10px;
-    opacity: .8;
 }
 .carouselButton:first-child{
     left: 10px;
+}
+.carouselButton:last-child{
+    right: 10px;
 }
 .carouselContainer{
     position: relative;
@@ -21,7 +22,6 @@
     width: 70%;
     margin: 20px auto;
 }
-
 .carouselContainer img{
     width: 100%;
 }
