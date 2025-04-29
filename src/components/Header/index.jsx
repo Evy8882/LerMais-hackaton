@@ -3,8 +3,9 @@ import Bars from '/bars.svg'
 import SideBar from '../SideBar'
 import Logo from '/logo-transparente.png'
 import { useState } from 'react';
+import { Link } from 'react-router-dom';
 
-function Header() {
+function Header({transp=false}) {
   const [show, setShow] = useState(false);
 
   const toggleSidebar = () => {
@@ -12,7 +13,7 @@ function Header() {
   };
 
   return (
-    <header className={styles.header}>
+    <header className={`${styles.header} ${transp ? styles.transp : ""}`}>
       <div className={styles.leftSideHeader}>
         <img
           src={Bars}
@@ -23,7 +24,15 @@ function Header() {
         <div>Ler Mais</div>
       </div>
       <div className={styles.rightSideHeader}>
-        <img src={Logo} alt="" className={styles.logo} />
+        
+        {transp === false ? (<img src={Logo} alt="" className={styles.logo} />) : (
+          <>
+          <Link className={styles.Links}>Sobre nós</Link>
+          <Link className={styles.Links}>Contato</Link>
+          </>
+        )}
+          
+        
       </div>
       <SideBar show={show} />
     </header>
