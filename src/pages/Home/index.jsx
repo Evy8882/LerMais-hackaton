@@ -1,6 +1,8 @@
 import Header from '../../components/Header'
 import Carousel from '../../components/Carousel'
 import style from './Home.module.css'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faSearch } from '@fortawesome/free-solid-svg-icons'
 
 function Home() {
   return (
@@ -33,7 +35,7 @@ function Home() {
             </div>
           </div>
         </div>
-      </div>
+      </section>
     </>
   );
 }
