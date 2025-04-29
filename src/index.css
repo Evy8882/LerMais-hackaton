@@ -5,4 +5,8 @@
 }
 :root{
   overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+#exploreSection{
+  padding: 30px 0;
 }
