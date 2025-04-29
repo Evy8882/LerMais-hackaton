@@ -9,22 +9,28 @@ function Home() {
       <section className={style.homeSection}>
         <h1>SEJA BEM-VINDO</h1>
         <img src="/logo-aberta.png" alt="" />
+        <p>No nosso site, você lê, interage com autores e ainda ganha recompensas por cada interação!</p>
+        <a href="#exploreSection">
+          <FontAwesomeIcon icon={faSearch} /> Explorar
+        </a>
       </section>
-      <Carousel />
-      <div className={style.autorsContainer}>
-        <h2>Autores populares</h2>
-        <div className={style.itemCardContainer}>
-          <div className={style.itemCard}>
-            <img src="https://placehold.co/200x150" alt="Placeholder 1" />
-            <p>Autor 1</p>
-          </div>
-          <div className={style.itemCard}>
-            <img src="https://placehold.co/200x150" alt="Placeholder 2" />
-            <p>Autor 2</p>
-          </div>
-          <div className={style.itemCard}>
-            <img src="https://placehold.co/200x150" alt="Placeholder 3" />
-            <p>Autor 3</p>
+      <section id="exploreSection">
+        <Carousel />
+        <div className={style.autorsContainer}>
+          <h2>Autores populares</h2>
+          <div className={style.itemCardContainer}>
+            <div className={style.itemCard}>
+              <img src="/Clarice Lispector.png" alt="Placeholder 1" />
+              <p>Clarice Lispector</p>
+            </div>
+            <div className={style.itemCard}>
+              <img src="/Machado de Assis.png" alt="Placeholder 2" />
+              <p>Machado de Assis</p>
+            </div>
+            <div className={style.itemCard}>
+              <img src="/Carlos Drummond.png" alt="Placeholder 3" />
+              <p>Carlos Drummond</p>
+            </div>
           </div>
         </div>
       </div>
