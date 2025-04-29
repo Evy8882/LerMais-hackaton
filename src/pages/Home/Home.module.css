@@ -17,6 +17,7 @@
 }
 .itemCard {
   text-align: center;
+  cursor: pointer;
 }
 .homeSection {
   font-family: "Open Sans", sans-serif;
@@ -56,4 +57,8 @@
   filter: blur(4px);
   z-index: -1;
   background-size: cover;
+}
+.itemCard:hover {
+  transform: scale(1.05);
+  transition: 0.3s;
 }
