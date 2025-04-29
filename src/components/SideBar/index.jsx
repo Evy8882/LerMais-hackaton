@@ -21,7 +21,7 @@ const SideBar = ({show}) => {
                 <Link to="/pontos" className={styles.sidebarItem}>
                     <FontAwesomeIcon icon={faEllipsisH} /> Pontos
                 </Link>
-                <Link to="/usuario" className={styles.sidebarItem}>
+                <Link to="/perfil" className={styles.sidebarItem}>
                     <FontAwesomeIcon icon={faUser} /> Usuário
                 </Link>
             </div>

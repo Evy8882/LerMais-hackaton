@@ -8,6 +8,8 @@ import {
 import Home from './pages/Home'
 import Biblioteca from './pages/Biblioteca'
 import Pesquisar from './pages/Pesquisar'
+import Pontos from './pages/Pontos'
+import Perfil from './pages/Perfil'
 
 function App() {
 
@@ -17,6 +19,8 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/biblioteca" element={<Biblioteca/>} />
           <Route path="/pesquisar" element={<Pesquisar />} />
+          <Route path="/Pontos" element={<Pontos />} />
+          <Route path="/Perfil" element={<Perfil />} />
       </Routes>
     </Router>
   )
