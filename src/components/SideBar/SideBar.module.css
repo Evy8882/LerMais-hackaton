@@ -1,0 +1,29 @@
+.sideBar{
+    position: absolute;
+    width: 30%;
+    left: -30%;
+    top: 60px;
+    background-color: #ff914d;
+    height: calc(100vh - 60px);
+    display: flex;
+    flex-direction: column;
+    transition: left 200ms;
+}
+.sideBar.show{
+    display: flex;
+    left: 0
+}
+.sidebarItem{
+    height: 50px;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    font-size: 1.4em;
+    gap: 10px;
+    cursor: pointer;
+}
+.sidebarItem:last-child{
+    margin-top: auto;
+    margin-bottom: 20px;
+    border-top: 1px solid #000;
+}
