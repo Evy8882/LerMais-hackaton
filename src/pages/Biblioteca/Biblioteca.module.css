@@ -13,6 +13,7 @@
     border-radius: 100px;
     height: 40px;
     padding: 10px 10px 10px 40px;
+    background-color: #eee;
 }
 .searchInputContainer{
     position: relative;
@@ -28,4 +29,32 @@
     width: 20px;
     height: 20px;
     opacity: .6;
+}
+.searchButtonsContainer{
+    display: flex;
+    width: 70%;
+    margin: auto;
+}
+.searchContainer{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.searchButton{
+    flex-grow: 1;
+    margin: 0 5px;
+    height: 40px;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2em;
+    text-decoration: none;
+    border-radius: 50px;
+    border: 1px solid;
+    transition: 100ms;
+}
+.searchButton:hover{
+    filter: brightness(0.8);
 }
