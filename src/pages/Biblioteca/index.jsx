@@ -2,6 +2,7 @@ import Header from '../../components/Header';
 import styles from './Biblioteca.module.css';
 import axios from 'axios';
 import { useEffect, useState } from 'react';
+import { Link } from 'react-router-dom';
 
 function Biblioteca() {
     const [books, setBooks] = useState([]);
@@ -49,12 +50,12 @@ function Biblioteca() {
                 </div>
                 <section className={styles.booksSection}>
                         {filteredBooks.map(book => (
-                            <a key={book["id_livro"]} className={styles.bookCard} href={`${book.url_pdf}`} target="_blank" rel="noopener noreferrer">
+                            <Link key={book["id_livro"]} className={styles.bookCard} to={`/livro/${book.id_livro}`}>
                                 <img src={book["capa"]} alt={book.titulo} className={styles.bookCover} />
                                 <h3 className={styles.bookTitle}>{book.titulo}</h3>
                                 <p className={styles.bookAuthor}>{book.nome}</p>
                                 <i className={styles.bookAccess}>{book.acesso === "dominio_publico" ? "Domínio público" : ""}</i>
-                            </a>
+                            </Link>
                         ))}
                 </section>
             </div>

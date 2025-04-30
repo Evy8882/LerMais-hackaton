@@ -40,3 +40,17 @@
     margin-bottom: 20px;
     border-top: 1px solid #000;
 }
+@media (max-width: 700px) {
+    .sideBar{
+        width: 90vw;
+        left: 0;
+        top: 60px;
+    }
+    .sidebarItem{
+        font-size: 1.2em;
+    }
+    .sidebarItem:last-child{
+        margin-top: auto;
+        margin-bottom: 20px;
+    }
+}

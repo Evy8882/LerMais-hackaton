@@ -19,7 +19,7 @@ const SideBar = ({show}) => {
                     <FontAwesomeIcon icon={faSearch} /> Pesquisar
                 </Link>
                 <Link to="/pontos" className={styles.sidebarItem}>
-                    <FontAwesomeIcon icon={faEllipsisH} /> Pontos
+                    <img src="/XP-icon.png" alt="XP" style={{width: "25px"}}/> Pontos
                 </Link>
                 <Link to="/perfil" className={styles.sidebarItem}>
                     <FontAwesomeIcon icon={faUser} /> Usuário

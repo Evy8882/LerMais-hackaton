@@ -31,7 +31,7 @@ function Perfil() {
                     <li className={Style.li}><span className={Style.Livros}>Livros Lidos </span></li>
                     <li className={Style.li}>Pontos</li>
                     <li className={Style.li}>Seguindo</li>
-                    <button type='onclick' className={Style.Sair}>Sair</button>
+                    <button onClick={() => console.log('Sair clicked')} className={Style.Sair}>Sair</button>
                 </ul>
             </div>
 

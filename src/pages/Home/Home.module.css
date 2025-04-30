@@ -15,10 +15,15 @@
   margin-bottom: 20px;
   padding: 10px;
 }
+
 .itemCard {
   text-align: center;
   cursor: pointer;
   transition: 0.3s;
+  width: 30%;
+}
+.itemCard img{
+  width: 100%;
 }
 .homeSection {
   font-family: "Open Sans", sans-serif;
@@ -27,6 +32,7 @@
   width: 100%;
   flex-direction: column;
   align-items: center;
+  text-align: center;
   justify-content: center;
   min-height: 100vh;
   position: relative;
@@ -64,4 +70,22 @@
 }
 .exploreSection{
   padding-top: 20px;
+}
+@media (max-width: 700px) {
+  .itemCardContainer {
+    flex-direction: column;
+  }
+  .itemCard {
+    width: 80%;
+    margin-bottom: 20px;
+  }
+  .homeSection h1 {
+    font-size: 2.5em;
+  }
+  .homeSection a {
+    font-size: 1.2em;
+  }
+  .exploreSection{
+    padding-top: 0;
+  }
 }

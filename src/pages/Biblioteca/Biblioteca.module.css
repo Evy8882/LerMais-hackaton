@@ -104,3 +104,21 @@
     font-size: .8em;
     opacity: .8;
 }
+@media (max-width: 700px) {
+    .bookCard{
+        width: 40%;
+    }
+    .searchInputContainer{
+        width: 90%;
+    }
+    .searchButtonsContainer{
+        flex-direction: column;
+        width: 90%;
+    }
+    .searchButton{
+        margin: 5px 0;
+    }
+    .bibliotecaContainer h1{
+        font-size: 2.5em;
+    }
+}

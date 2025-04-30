@@ -1,31 +1,36 @@
 .all {
     display: flex;
+    flex-wrap: wrap;
     align-items: flex-start;
     gap: 20px;
     padding: 20px;
-    padding-top: 60px;
+    padding-top: 80px;
 }
 
-/*Card sobre o usuario*/
+/* Card sobre o usuario */
 .CardUsuario {
     background-color: #ff914d;
     justify-content: left;
-    display: column;
-    width: 500px;
-    height: 800px;
-    padding: 10px 10px 10px 10px;
-    margin-left: 20px;
-    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    padding: 10px;
+    margin: 20px auto;
     border-radius: 25px;
 }
 
 .Usuario {
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .FotoPerfil {
-    width: 220px;
-    height: 270px;
+    width: 100%;
+    max-width: 220px;
+    height: auto;
     border: solid #ef5b00;
     border-radius: 5%;
     margin-bottom: 10px;
@@ -43,7 +48,7 @@
 
 .Lista {
     list-style-type: none;
-    text-size-adjust: 30px;
+    font-size: 16px;
 }
 
 .h3Sobre {
@@ -53,25 +58,27 @@
 }
 
 .pSobre {
-    padding: 10px 10px 10px 10px;
+    padding: 10px;
 }
 
 /* Navbar dos itens do perfil */
 .navbarPerfil {
     margin: 50px auto 0 auto;
-    margin-top: 50px;
     background-color: #ff6a007d;
-    padding: 20px 40px;
-    width: 70%;
+    padding: 20px;
+    width: 40vw;
+    max-width: 800px;
     border-radius: 20px;
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
 }
 
 .ulUsuario {
     display: flex;
-    gap: 50px;
+    flex-wrap: wrap;
+    gap: 20px;
     align-items: center;
     list-style: none;
     margin: 0;
@@ -88,7 +95,7 @@
     text-transform: uppercase;
     background: none;
     border: none;
-    font-size: 20px;
+    font-size: 16px;
 }
 
 .li:hover {
@@ -112,8 +119,62 @@
     cursor: pointer;
     font-weight: bold;
     text-transform: uppercase;
-    font-size: 20px;
+    font-size: 16px;
 }
+
 .Sair:hover {
     background-color: #ef5b00;
+}
+
+/* Responsividade */
+@media (max-width: 700px) {
+    .all{
+        padding: 10px;
+        padding-top: 80px;
+        gap: 10px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .CardUsuario {
+        width: 100%;
+        margin: 20px 0;
+    }
+
+    .navbarPerfil {
+        width: 100%;
+        padding: 15px;
+    }
+
+    .ulUsuario {
+        gap: 10px;
+    }
+
+    .li {
+        font-size: 14px;
+    }
+
+    .Sair {
+        font-size: 14px;
+        padding: 5px 10px;
+    }
+}
+
+@media (max-width: 480px) {
+    .FotoPerfil {
+        max-width: 150px;
+    }
+
+    .h1Titulo, .h3Nivel, .h3Sobre {
+        font-size: 18px;
+    }
+
+    .Lista {
+        font-size: 14px;
+    }
+
+    .Sair {
+        font-size: 12px;
+        padding: 5px 8px;
+    }
 }

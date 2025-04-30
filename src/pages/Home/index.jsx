@@ -22,15 +22,15 @@ function Home() {
           <h2>Autores populares</h2>
           <div className={style.itemCardContainer}>
             <div className={style.itemCard}>
-              <img src="/Clarice Lispector.png" alt="Placeholder 1" />
+              <img src="/Clarice Lispector.png" alt="Clarice Lispector" />
               <p>Clarice Lispector</p>
             </div>
             <div className={style.itemCard}>
-              <img src="/Machado de Assis.png" alt="Placeholder 2" />
+              <img src="/Machado de Assis.png" alt="Machado de Assis" />
               <p>Machado de Assis</p>
             </div>
             <div className={style.itemCard}>
-              <img src="/Carlos Drummond.png" alt="Placeholder 3" />
+              <img src="/Carlos Drummond.png" alt="Carlos Drummond" />
               <p>Carlos Drummond</p>
             </div>
           </div>

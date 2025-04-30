@@ -10,6 +10,7 @@ import Biblioteca from './pages/Biblioteca'
 import Pesquisar from './pages/Pesquisar'
 import Pontos from './pages/Pontos'
 import Perfil from './pages/Perfil'
+import Livro from './pages/Livro'
 
 function App() {
 
@@ -21,6 +22,7 @@ function App() {
           <Route path="/pesquisar" element={<Pesquisar />} />
           <Route path="/Pontos" element={<Pontos />} />
           <Route path="/Perfil" element={<Perfil />} />
+          <Route path="/livro/:id" element={<Livro />} />
       </Routes>
     </Router>
   )
