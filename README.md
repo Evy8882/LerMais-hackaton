@@ -1,6 +1,9 @@
 # 📚Ler Mais
 > Projeto para o Hackaton Eec 2025. Grupo 2
-> 
+
+<img src="public/logo hacktaon .png"/>
+<img src="public/logo-aberta.png" />
+
 ## Sobre nós
 
 Disponibilização de livros com recompensas para os usuários, contendo livros de domínio público, livros independentes gratuitos e pagos.
