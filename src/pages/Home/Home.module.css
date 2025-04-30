@@ -62,3 +62,6 @@
 .itemCard:hover {
   transform: scale(1.05);
 }
+.exploreSection{
+  padding-top: 20px;
+}

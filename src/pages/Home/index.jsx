@@ -16,7 +16,7 @@ function Home() {
           <FontAwesomeIcon icon={faSearch} /> Explorar
         </a>
       </section>
-      <section id="exploreSection">
+      <section id="exploreSection" className={style.exploreSection}>
         <Carousel />
         <div className={style.autorsContainer}>
           <h2>Autores populares</h2>

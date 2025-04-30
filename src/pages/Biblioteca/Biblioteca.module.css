@@ -17,7 +17,7 @@
 }
 .searchInputContainer{
     position: relative;
-    width: 70%;
+    width: 80%;
     margin: 20px auto;
     display: flex;
 }
@@ -32,7 +32,7 @@
 }
 .searchButtonsContainer{
     display: flex;
-    width: 70%;
+    width: 80%;
     margin: auto;
 }
 .searchContainer{
@@ -57,4 +57,50 @@
 }
 .searchButton:hover{
     filter: brightness(0.8);
+}
+.bookCard{
+    width: 23%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #ff792644;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: 200ms;
+    color: black;
+    text-decoration: none;
+}
+.bookCard:hover{
+    transform: scale(1.02) translateY(-8px);
+}
+.bookCover{
+    width: 100%;
+    max-width: 200px;
+    height: 70%;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+.bookTitle{
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+.bookAuthor{
+    font-size: 1.2em;
+    color: #555;
+    margin-bottom: 10px;
+}
+.booksSection{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 80%;
+}
+.bookAccess{
+    font-size: .8em;
+    opacity: .8;
 }
