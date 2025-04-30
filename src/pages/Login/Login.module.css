@@ -1,0 +1,94 @@
+.loginBackground {
+    background-image: url('/public/fundo.jpg'); 
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    backdrop-filter: blur(10px);
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .loginContainer {
+    display: flex;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 15px;
+    border: solid rgba(102, 96, 96, 0.24) 3px;;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    backdrop-filter: blur(15px);
+    max-width: 800px;
+    width: 90%;
+  }
+  
+  .leftSide {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    background: transparent;
+  }
+  
+  .illustration {
+    max-width: 135%;
+    height: auto;
+  }
+  
+  .rightSide {
+    flex: 1;
+    padding: 3rem 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: transparent;
+  }
+  
+  .rightSide h2 {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+    color: #fff;
+  }
+  
+  .inputField {
+    width: 100%;
+    padding: 0.8rem 1rem;
+    margin-bottom: 1rem;
+    border: none;
+    border-radius: 50px;
+    background-color: #fff;
+    font-size: 1rem;
+  }
+  
+  .loginButton {
+    width: 100%;
+    padding: 0.8rem 1rem;
+    border: none;
+    border-radius: 50px;
+    background-color: #ff6b00;
+    color: #fff;
+    font-size: 1.1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .loginButton:hover {
+    background-color: #e45a00;
+  }
+  
+  .registerText {
+    margin-top: 1rem;
+    font-size: 0.9rem;
+    color: #fff;
+    text-align: center;
+  }
+  
+  .registerText a {
+    color: #fff;
+    text-decoration: underline;
+  }
+  

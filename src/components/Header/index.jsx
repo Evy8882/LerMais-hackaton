@@ -22,7 +22,7 @@ function Header({transp=false}) {
           className={styles.bar}
           onClick={toggleSidebar}
         />
-        <div>Ler Mais</div>
+        <div style={{fontSize: "35px"}}>Ler Mais</div>
       </div>
       <div className={styles.rightSideHeader}>
         
@@ -30,6 +30,7 @@ function Header({transp=false}) {
           <>
           <Link className={styles.Links}>Sobre nós</Link>
           <Link className={styles.Links}>Contato</Link>
+          <Link className={styles.Links} to={"/login"} style={{backgroundColor: "red", borderRadius: "10px", padding:"8px", border: "2px solid red "}}>Logout</Link>
           </>
         )}
           

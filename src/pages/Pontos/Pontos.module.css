@@ -1,0 +1,357 @@
+.h1Nivel {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.imgNivel {
+    /* height: 250px; */
+    width: 80%;
+    margin: 10px auto;
+    display: block;
+    /* object-fit: cover; */
+}
+
+.h1Regras {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.Regras {
+    background-color: #ff914d;
+    margin: 20px 100px 100px 100px;
+    border-radius: 10px;
+    padding: 5px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+
+.Livros {
+    background-color: #ffffff72;
+    padding: 15px;
+    margin: 20px 0 20px 10px;
+    width: 23%;
+    max-width: 600px;
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+}
+
+.Livros h2 {
+    text-align: center;
+    margin-bottom: 15px;
+    font-size: 24px;
+    color: #333;
+}
+
+.Livros ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.Livros>ul>li {
+    margin-bottom: 15px;
+    font-weight: bold;
+    color: #222;
+}
+
+.Livros ul ul {
+    margin-top: 5px;
+    padding-left: 20px;
+}
+
+.Livros ul ul li {
+    font-weight: normal;
+    color: #444;
+    margin-bottom: 5px;
+}
+
+.Pontos {
+    background-color: #ffffff72;
+    padding: 20px;
+    margin: 20px;
+    width: 23%;
+    max-width: 600px;
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+}
+
+.h2Pontos {
+    text-align: center;
+    margin-bottom: 15px;
+    font-size: 24px;
+    color: #333;
+}
+
+.Pontos ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.Pontos li {
+    font-weight: bold;
+    color: #222;
+    margin-bottom: 5px;
+}
+
+.Pontos p {
+    margin: 5px 0 15px 15px;
+    color: #444;
+    font-size: 14px;
+}
+
+.Desconto {
+    background-color: #ffffff72;
+    padding: 20px;
+    margin-top: 20px;
+    width: 23%;
+    max-width: 600px;
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+}
+
+.h2Desconto {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.Desconto ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.Desconto li {
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.gato {
+    width: 200px;
+    height: 250px;
+    margin-left: 40px;
+    margin-top: 100px;
+}
+
+.Vantagens {
+    background-color: #ff914d;
+    margin: 20px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 80px;        
+    padding: 20px;   
+}
+
+
+.Bronze, .Prata, .Ouro, .Platina, .Radiante {
+    background-color: #ffa366;
+    width: 300px;
+    padding: 20px;
+    border-radius: 15px;
+    text-align: center;
+    position: relative;
+    font-family: sans-serif;
+}
+
+.h2Bronze {
+    color: #8b4513;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.FogoB {
+    position: absolute;
+    top: 30px;
+    left: 10px;
+    width: 30px;
+}
+
+.Bronze::before {
+    content: "25 pontos";
+    display: block;
+    background-color: #ef5b00;
+    color: black;
+    font-weight: bold;
+    padding: 5px 15px;
+    border-radius: 10px;
+    margin: 10px auto;
+    width: fit-content;
+}
+
+.MolduraBronze {
+    width: 200px;
+    height: 200px;
+    margin-top: 10px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.h2Prata {
+    color: #d8d2d2;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.FogoP {
+    position: absolute;
+    top: 30px;
+    left: 10px;
+    width: 30px;
+}
+
+.Prata::before {
+    content: "25 pontos";
+    display: block;
+    background-color: #ef5b00;
+    color: black;
+    font-weight: bold;
+    padding: 5px 15px;
+    border-radius: 10px;
+    margin: 10px auto;
+    width: fit-content;
+}
+
+.MolduraPrata {
+    width: 200px;
+    height: 200px;
+    margin-top: 10px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+
+.h2Ouro {
+    color: #fff533;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.FogoO {
+    position: absolute;
+    top: 30px;
+    left: 10px;
+    width: 30px;
+}
+
+.Ouro::before {
+    content: "25 pontos";
+    display: block;
+    background-color: #ef5b00;
+    color: black;
+    font-weight: bold;
+    padding: 5px 15px;
+    border-radius: 10px;
+    margin: 10px auto;
+    width: fit-content;
+}
+
+.MolduraOuro {
+    width: 200px;
+    height: 200px;
+    margin-top: 10px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.h2Platina {
+    color: #0cc0df;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.FogoPl {
+    position: absolute;
+    top: 30px;
+    left: 10px;
+    width: 30px;
+}
+
+.Platina::before {
+    content: "25 pontos";
+    display: block;
+    background-color: #ef5b00;
+    color: black;
+    font-weight: bold;
+    padding: 5px 15px;
+    border-radius: 10px;
+    margin: 10px auto;
+    width: fit-content;
+}
+
+.MolduraPlatina {
+    width: 200px;
+    height: 200px;
+    margin-top: 10px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.h2Radiante {
+    color: #ffffff;
+    text-shadow: white 1px 1px 10px;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.FogoR {
+    position: absolute;
+    top: 30px;
+    left: 10px;
+    width: 30px;
+}
+
+.Radiante::before {
+    content: "25 pontos";
+    display: block;
+    background-color: #ef5b00;
+    color: black;
+    font-weight: bold;
+    padding: 5px 15px;
+    border-radius: 10px;
+    margin: 10px auto;
+    width: fit-content;
+}
+
+.MolduraRadiante {
+    width: 200px;
+    height: 200px;
+    margin-top: 10px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+.gatoVantagens {
+    width: 300px;
+    height: 350px;
+    margin-left: 40px;
+}
+@media (max-width : 760px) {
+    .Regras{
+        flex-direction: column;
+        align-items: center;
+        width: 90%;
+        margin: 0 auto;
+    }
+    .Regras *:not(.gato){
+        width: 100%;
+        margin: 0;
+    }
+    .Vantagens{
+        width: 90%;
+        justify-content: center;
+        align-items: center;
+        margin: 20px auto;
+    }
+}

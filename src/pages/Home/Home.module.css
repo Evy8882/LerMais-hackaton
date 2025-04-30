@@ -38,10 +38,11 @@
   position: relative;
   background: none;
   margin-bottom: 20px;
-  gap: 30px;
+  gap: 65px;
 }
 .homeSection h1{
-  font-size: 4em;
+  font-size: 8em;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .homeSection a{
     color: white;
@@ -50,6 +51,15 @@
     transition: 100ms;
 }
 
+
+@keyframes clarear {
+  0%{
+    filter: blur(4px) brightness(0);
+  }
+  100%{
+    filter: blur(4px) brightness(.9);
+  }
+}
 .homeSection::before {
   content: "";
   position: absolute;
@@ -61,7 +71,8 @@
   background-size: 100%;
   transform: translateY(-10px);
   background-position: center;
-  filter: blur(4px);
+  filter: blur(4px) brightness(0.9);
+  animation: clarear 3s;
   z-index: -1;
   background-size: cover;
 }

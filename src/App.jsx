@@ -11,6 +11,7 @@ import Pesquisar from './pages/Pesquisar'
 import Pontos from './pages/Pontos'
 import Perfil from './pages/Perfil'
 import Livro from './pages/Livro'
+import Login from './pages/Login'
 
 function App() {
 
@@ -23,6 +24,7 @@ function App() {
           <Route path="/Pontos" element={<Pontos />} />
           <Route path="/Perfil" element={<Perfil />} />
           <Route path="/livro/:id" element={<Livro />} />
+          <Route path="/Login" element={<Login />} />
       </Routes>
     </Router>
   )

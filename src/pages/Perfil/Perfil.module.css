@@ -125,6 +125,16 @@
 .Sair:hover {
     background-color: #ef5b00;
 }
+.CardLivros{
+    transform: translateX(-100px);
+    max-width: 100vw;
+}
+.CardLivros img{
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin: 0 auto;
+}
 
 /* Responsividade */
 @media (max-width: 700px) {
@@ -157,6 +167,10 @@
     .Sair {
         font-size: 14px;
         padding: 5px 10px;
+    }
+    .CardLivros{
+        transform: translateX(0);
+        max-width: 100vw;
     }
 }
 

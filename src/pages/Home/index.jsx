@@ -3,12 +3,13 @@ import Carousel from '../../components/Carousel'
 import style from './Home.module.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faSearch } from '@fortawesome/free-solid-svg-icons'
+import Footer from '../../components/Footer'
 
 function Home() {
   return (
     <>
       <Header transp={true} />
-      <section className={style.homeSection}>
+      <section className={style.homeSection} id='homeSection'>
         <h1>SEJA BEM-VINDO</h1>
         <img src="/logo-aberta.png" alt="" />
         <p>No nosso site, você lê, interage com autores e ainda ganha recompensas por cada interação!</p>
@@ -36,6 +37,7 @@ function Home() {
           </div>
         </div>
       </section>
+      <Footer/>
     </>
   );
 }

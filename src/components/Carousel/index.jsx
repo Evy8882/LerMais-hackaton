@@ -7,6 +7,8 @@ function Carousel() {
     '/banners/banner1.jpg',
     '/banners/banner2.jpg',
     '/banners/banner3.jpg',
+    '/banners/banner4.png',
+    '/banners/banner5.png'
   ];
 
   const nextSlide = () => {

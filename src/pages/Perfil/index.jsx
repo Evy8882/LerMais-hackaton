@@ -25,6 +25,7 @@ function Perfil() {
                 <p className={Style.pSobre}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem qui beatae tenetur, quos dolorum placeat magni nostrum, distinctio dolorem aliquid atque itaque ratione vero necessitatibus in? Accusamus ullam quis aliquam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi ratione reiciendis numquam, repellat autem blanditiis perferendis, similique, excepturi reprehenderit debitis assumenda illum. Dolor repellat quisquam quo quidem dolore? Mollitia, qui. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nesciunt, tenetur! Fuga cum omnis, natus odio quasi tenetur ipsa eligendi voluptas aperiam deserunt dolorem? Ducimus facilis excepturi voluptates reprehenderit, id nemo!</p>
             </div>
 
+            <div className={Style.CardLivros}>
             <div className={Style.navbarPerfil}>
                 <ul className={Style.ulUsuario}>
                     <li className={Style.li}> <a href=""></a>Informações</li>
@@ -34,7 +35,10 @@ function Perfil() {
                     <button onClick={() => console.log('Sair clicked')} className={Style.Sair}>Sair</button>
                 </ul>
             </div>
+            <br />
+                <img src="/LIVROSLIDOS.png" alt="" />
 
+            </div>
             </div>
         </>
     )

@@ -1,33 +1,77 @@
-.pesquisaContainer{
+.pesquisaContainer {
     font-family: 'Open Sans', sans-serif;
     display: flex;
     flex-direction: column;
     align-items: center;
     padding-top: 90px;
-}
-.bibliotecaContainer h1{
-    margin: 20px 0;
-}
-.searchInput{
     width: 100%;
-    border: 1px solid gray;
-    border-radius: 100px;
-    height: 40px;
-    padding: 10px 10px 10px 40px;
-    background-color: #eee;
-}
-.searchInputContainer{
-    position: relative;
-    width: 70%;
-    margin: 20px auto;
+    max-width: 700px;
+    margin: 2rem auto;
+    padding: 2rem;
+    border-radius: 12px;
+    margin-top: 100px;
+  }
+  
+  .pesquisaContainer h1 {
+    font-size: 1.8rem;
+    margin-bottom: 1.5rem;
+    text-align: center;
+    color: #333;
+  }
+  
+  .searchInputContainer {
     display: flex;
-}
-.searchInputContainer img{
-    position: absolute;
-    left: 14px;
-    top: 50%;
-    transform: translateY(-50%);
-    width: 20px;
-    height: 20px;
-    opacity: .6;
-}
+    gap: 0.5rem;
+    margin-bottom: 2rem;
+  }
+  
+  .searchInput {
+    flex: 1;
+    padding: 0.75rem 1rem;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 1rem;
+  }
+  
+  .searchInput:focus {
+    outline: none;
+    border-color: #0070f3;
+    box-shadow: 0 0 0 2px rgba(0, 112, 243, 0.2);
+  }
+  
+  .searchInputContainer img {
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+  }
+  
+  /* Espaço entre a pesquisa e os cards */
+  .cardsContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    margin: 100px;
+  }
+  
+  .card {
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 1.5rem;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease;
+  }
+  
+  .card:hover {
+    transform: scale(1.02);
+  }
+  
+  .nome, .data, .biografia {
+    margin-bottom: 0.75rem;
+    font-size: 1rem;
+    color: #444;
+  }
+  
+  .nome strong, .data strong, .biografia strong {
+    color: #222;
+  }
+  
